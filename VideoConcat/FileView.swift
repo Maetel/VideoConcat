@@ -7,29 +7,23 @@
 
 import SwiftUI
 
-struct FileView: View {
-    var video : VideoFile
+struct VideoFileView: View {
+    @State var video : VideoFile
     @State var checked : Bool = false
     var body: some View {
         
         HStack {
-            Text(video.path)
+            //Text(URL(fileURLWithPath: video.path).lastPathComponent)
+            Text(getFileName(of: video))
             Spacer()
-            Button(action: {
-                    
-                checked = !checked
-
-            }) {
-                Image(   systemName: checked ? "plus.rectangle.on.rectangle":"plus.rectangle.fill.on.rectangle.fill")
-                    .renderingMode(.original)
-            }.padding().foregroundColor(.red).listItemTint(.green).controlSize(.large)
+            
         }
     }
 }
 
 struct FileView_Previews: PreviewProvider {
     static var previews: some View {
-        FileView(video:
-                    VideoFile(path: "path/file1", addedId:0))
+        VideoFileView(video:
+                    VideoFile(path: "path/file1", checked:false))
     }
 }

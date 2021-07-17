@@ -7,7 +7,11 @@
 
 import Foundation
 
+func getFileName(of video: VideoFile)->String{
+    return URL(fileURLWithPath: video.path).lastPathComponent
+}
+
 struct VideoFile : Hashable, Codable {
     var path: String
-    var addedId : Int
+    var checked : Bool = false
 }
