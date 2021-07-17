@@ -11,6 +11,8 @@
 		3922FF0326A233E4006EDCD4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3922FF0226A233E4006EDCD4 /* ContentView.swift */; };
 		3922FF0526A233E5006EDCD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3922FF0426A233E5006EDCD4 /* Assets.xcassets */; };
 		3922FF0826A233E5006EDCD4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3922FF0726A233E5006EDCD4 /* Preview Assets.xcassets */; };
+		3922FF1126A2449C006EDCD4 /* FileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3922FF1026A2449C006EDCD4 /* FileView.swift */; };
+		3922FF1326A24A50006EDCD4 /* VideoFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3922FF1226A24A50006EDCD4 /* VideoFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		3922FF0726A233E5006EDCD4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3922FF0926A233E5006EDCD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3922FF0A26A233E5006EDCD4 /* VideoConcat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VideoConcat.entitlements; sourceTree = "<group>"; };
+		3922FF1026A2449C006EDCD4 /* FileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileView.swift; sourceTree = "<group>"; };
+		3922FF1226A24A50006EDCD4 /* VideoFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			children = (
 				3922FF0026A233E4006EDCD4 /* VideoConcatApp.swift */,
 				3922FF0226A233E4006EDCD4 /* ContentView.swift */,
+				3922FF1226A24A50006EDCD4 /* VideoFile.swift */,
+				3922FF1026A2449C006EDCD4 /* FileView.swift */,
 				3922FF0426A233E5006EDCD4 /* Assets.xcassets */,
 				3922FF0926A233E5006EDCD4 /* Info.plist */,
 				3922FF0A26A233E5006EDCD4 /* VideoConcat.entitlements */,
@@ -140,6 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3922FF1126A2449C006EDCD4 /* FileView.swift in Sources */,
+				3922FF1326A24A50006EDCD4 /* VideoFile.swift in Sources */,
 				3922FF0326A233E4006EDCD4 /* ContentView.swift in Sources */,
 				3922FF0126A233E4006EDCD4 /* VideoConcatApp.swift in Sources */,
 			);
